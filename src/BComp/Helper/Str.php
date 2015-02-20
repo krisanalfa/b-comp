@@ -44,9 +44,9 @@ class Str
     /**
      * Determine if a given string ends with a given substring.
      *
-     * Produce: static::endsWith('my_method', 'd')); // true
-     *          static::endsWith('my_method', 'x')); // false
-     *          static::endsWith('my_method', ['x', 'd'])); // true
+     * Produce: static::endsWith('my_method', 'd'); // true
+     *          static::endsWith('my_method', 'x'); // false
+     *          static::endsWith('my_method', ['x', 'd']); // true
      *
      * @param string  $haystack
      * @param string|array  $needles
@@ -67,8 +67,8 @@ class Str
     /**
      * Determine if a given string matches a given pattern.
      *
-     * Produce: static::is('*.php', 'myFile.php')); // true
-     *          static::is('php', 'myFile.php')); // false
+     * Produce: static::is('*.php', 'myFile.php'); // true
+     *          static::is('php', 'myFile.php'); // false
      *
      * @param  string  $pattern
      * @param  string  $value
@@ -106,7 +106,7 @@ class Str
     /**
      * Limit the number of characters in a string.
      *
-     * Produce: static::limit("You see me because you haven't overriden templates yet or default routes. May be this is your fist journey through the world of Bono. I wish you will enjoy and get comfy to the world of productive application development."));
+     * Produce: static::limit("You see me because you haven't overriden templates yet or default routes. May be this is your fist journey through the world of Bono. I wish you will enjoy and get comfy to the world of productive application development.");
      * To     : "You see me because you haven't overriden templates yet or default routes. May be this is your fist j..."
      *
      * @param  string  $value
@@ -166,8 +166,8 @@ class Str
     /**
      * Parse a Class@method style callback into class and method.
      *
-     * Produce: static::parseCallback('Class@methodName', 'defaultMethod')); // ["Class", "methodName"]
-     *          static::parseCallback('ClassName', 'defaultMethod')); // ["ClassName", "defaultMethod"]
+     * Produce: static::parseCallback('Class@methodName', 'defaultMethod'); // ["Class", "methodName"]
+     *          static::parseCallback('ClassName', 'defaultMethod'); // ["ClassName", "defaultMethod"]
      *
      * @param  string  $callback
      * @param  string  $default
@@ -233,7 +233,7 @@ class Str
     /**
      * Convert the given string to title case.
      *
-     * Produce: static::title('this is a title')); // "This Is A Title"
+     * Produce: static::title('this is a title'); // "This Is A Title"
      *
      * @param  string  $value
      *
@@ -247,7 +247,7 @@ class Str
     /**
      * Generate a URL friendly "slug" from a given string.
      *
-     * Produce: static::slug('mr. ganesha, this is a title')); // "mr-ganesha-this-is-a-title"
+     * Produce: static::slug('mr. ganesha, this is a title'); // "mr-ganesha-this-is-a-title"
      *
      * @param  string  $title
      * @param  string  $separator
@@ -273,7 +273,7 @@ class Str
     /**
      * Convert a string to snake case.
      *
-     * Produce: static::snake('theCamelCaseVariable')); // "the_camel_case_variable"
+     * Produce: static::snake('theCamelCaseVariable'); // "the_camel_case_variable"
      *
      * @param  string  $value
      * @param  string  $delimiter
@@ -290,9 +290,9 @@ class Str
     /**
      * Determine if a given string starts with a given substring.
      *
-     * Produce: static::startsWith('theCamelCaseVariable', 't')); // true
-     *          static::startsWith('theCamelCaseVariable', 'z')); // false
-     *          static::startsWith('theCamelCaseVariable', ['t', 'z'])); // true
+     * Produce: static::startsWith('theCamelCaseVariable', 't'); // true
+     *          static::startsWith('theCamelCaseVariable', 'z'); // false
+     *          static::startsWith('theCamelCaseVariable', ['t', 'z']); // true
      *
      * @param  string  $haystack
      * @param  string|array  $needles
@@ -313,7 +313,7 @@ class Str
     /**
      * Convert a value to studly caps case.
      *
-     * Produce: static::studly('the_snake_case_class_name')); // "TheSnakeCaseClassName"
+     * Produce: static::studly('the_snake_case_class_name'); // "TheSnakeCaseClassName"
      *
      * @param  string  $value
      *
