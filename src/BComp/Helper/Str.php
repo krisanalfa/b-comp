@@ -139,7 +139,7 @@ class Str
     /**
      * Limit the number of words in a string.
      *
-     * Produce: static::words("You see me because you haven't overriden templates yet or default routes. May be this is your fist journey through the world of Bono. I wish you will enjoy and get comfy to the world of productive application development.", 10));
+     * Produce: static::words("You see me because you haven't overriden templates yet or default routes. May be this is your fist journey through the world of Bono. I wish you will enjoy and get comfy to the world of productive application development.", 10);
      * To     : "You see me because you haven't overriden templates yet or..."
      *
      * @param  string  $value

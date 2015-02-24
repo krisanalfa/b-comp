@@ -23,7 +23,7 @@ class Log extends SlimLog
      *
      * @throws InvalidArgumentException If invalid log level
      */
-    public function log($level, $message, $context = array())
+    public function log($level, $message, array $context = array())
     {
         if (! isset(self::$levels[$level])) {
             throw new InvalidArgumentException('Invalid log level supplied to function');
