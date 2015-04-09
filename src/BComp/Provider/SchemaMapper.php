@@ -7,8 +7,9 @@ class SchemaMapper extends Provider
 {
     public function initialize()
     {
-        foreach ($this->options as $key => $value) {
-            Schema::register($key, $value);
+        foreach ($this->options as $key => $value)
+        {
+            Schema::register($key, $value, true);
         }
     }
 }
